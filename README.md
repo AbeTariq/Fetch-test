@@ -25,11 +25,15 @@ python testing.py
 ### Features:
 Handles both city/state and zip code formats.
 Returns latitude, longitude, place name, state (if available), and country.
+
 Provides informative error messages for invalid locations or API errors.
+
 Includes integration tests to ensure correct functionality.
 
 
 ### Limitations:
 Currently only return the first available result for locations that share the same name e.g. Hyderabad, India VS Hyderabad, Pakistan.
+
 City and states with the same name will result in city location taking priority over state e.g. New York city VS New York state.
+
 Relies on the OpenWeatherMap API, which may have rate limits or other restrictions.
