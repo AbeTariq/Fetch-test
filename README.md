@@ -3,7 +3,7 @@ For fetch coding test
 
 This Python utility retrieves location data (latitude, longitude, place name, state, and country) from the OpenWeatherMap API based on a city, state (optional), or zip code.
 
-## Usage:
+### Usage:
 Install required dependencies:
 Bash
 pip install requests
